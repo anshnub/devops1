@@ -28,7 +28,7 @@ def load_data(statistics, output_file):
 
 if __name__ == "__main__":
     # Define file paths
-    input_file = 'data/input_data.xlsx'  # Path to your Excel file
+    input_file = 'data/input.csv'  # Path to your Excel file
     output_file = 'data/statistics.txt'   # Path for output text file
 
     # Execute ETL process
