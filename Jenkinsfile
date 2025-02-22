@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/yourusername/yourrepository.git'
+                git url: 'https://github.com/anshnub/devops1.git'
             }
         }
         stage('Run ETL Pipeline') {
