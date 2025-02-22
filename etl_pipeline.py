@@ -1,9 +1,9 @@
 import pandas as pd
 from scipy import stats
-
-def extract_data(input_file = 'data/input_data.csv'):
+# input_file = 'data/input.csv'
+def extract_data(input_file ):
     # Read data from Excel file
-    data = pd.read_excel(input_file = 'data/input_data.csv')
+    data = pd.read_excel(input_file)
     return data
 
 def transform_data(data):
