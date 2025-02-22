@@ -1,5 +1,6 @@
 pipeline {
     agent any
+
     stages {
         stage('Checkout') {
             steps {
@@ -11,8 +12,5 @@ pipeline {
                 sh 'python etl_pipeline.py'
             }
         }
-    }
-    triggers {
-        pollSCM('* * * * *') // Polls every minute for changes
     }
 }
